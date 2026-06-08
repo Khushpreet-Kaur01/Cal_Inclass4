@@ -41,6 +41,6 @@ jobs:
     #     directory: ./InclassPart2
     - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@v4
-      with:
+      # with:
         # This tells the scanner where your pom.xml actually lives
         # directory: ./InclassPart2
